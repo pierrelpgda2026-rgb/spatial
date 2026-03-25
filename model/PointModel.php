@@ -33,6 +33,6 @@ class PointModel {
                 SET latitude='$lat', longitude='$long', surface='$surface', id_zone='$id_zone'
                 WHERE id=$id";
         mysqli_query($this->connexion, $sql);
-    }
+    }   
 }
 ?>
